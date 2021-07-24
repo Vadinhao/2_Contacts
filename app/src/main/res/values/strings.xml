@@ -1,5 +1,11 @@
 <resources>
     <string name="app_name">2_Contacts</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    //*** Default name and number ***//
+    <string name="default_contact_name">Ivan Vasiliev</string>
+    <string name="default_contact_number">+38067990012</string>
+    //*** Text on ?navigationBar? ***//
+    <string name="text_for_fragment_contacts">Contacts</string>
+    <string name="text_for_fragment_contact">Contact</string>
+    <string name="text_for_fragment_edit_1">Edit contact</string>
+    <string name="text_for_fragment_edit_2">Add contact</string>
 </resources>
