@@ -8,4 +8,8 @@
     <string name="text_for_fragment_contact">Contact</string>
     <string name="text_for_fragment_edit_1">Edit contact</string>
     <string name="text_for_fragment_edit_2">Add contact</string>
+    //*** Text for content description ***//
+    <string name="add_new_item">Add new contact</string>
+    //*** Text for activities/fragments ***//
+    <string name="search">Search</string>
 </resources>

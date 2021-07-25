@@ -13,13 +13,13 @@
 
     <ImageView
         android:id="@+id/img_contact_photo"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
+        android:layout_width="74dp"
+        android:layout_height="77dp"
         app:srcCompat="@android:drawable/ic_menu_gallery" />
 
     <LinearLayout
         android:id="@+id/layout_for_name_and_number"
-        android:layout_width="250dp"
+        android:layout_width="218dp"
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:paddingLeft="16dp"
