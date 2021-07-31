@@ -13,8 +13,8 @@
 
     <ImageView
         android:id="@+id/img_contact_photo"
-        android:layout_width="74dp"
-        android:layout_height="77dp"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
         app:srcCompat="@android:drawable/ic_menu_gallery" />
 
     <LinearLayout
@@ -32,8 +32,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="5dp"
+            android:lines="1"
             android:text="@string/default_contact_name"
-            android:textSize="24sp" />
+            android:textSize="16sp" />
 
         <TextView
             android:id="@+id/text_number"

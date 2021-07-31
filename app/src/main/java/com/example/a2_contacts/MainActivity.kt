@@ -17,22 +17,7 @@ class MainActivity : AppCompatActivity() {
             .findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         navController = navHostFragment.navController
 
-        //setupActionBarWithNavController(navController)
-        /*
-        override fun onSupportNavigateUp(): Boolean {
             return navController.navigateUp() || super.onSupportNavigateUp()
         }
-        */
-        /*
-        ContentResolver resolver = getContentResolver();
-        mData = resolver.query(TVContract.Actors.CONTENT_URI, null, null, null, null);
-        //
-        int wordCol = cursor.getColumnIndex(DroidTermsExampleContract.COLUMN_WORD);
-        int definitionCol = cursor.getColumnIndex(DroidTermsExampleContract.COLUMN_DEFINITION);
-        while (cursor.moveToNext()) {
-        String word = cursor.getString(wordCol);
-        String definition = cursor.getString(definitionCol);
-        Log.v(“Cursor Example”, word + “ - “ + definition);
-        */
     }
 }
