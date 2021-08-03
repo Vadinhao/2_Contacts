@@ -18,7 +18,7 @@
             app:destination="@id/contactsFragment" />
         <argument
             android:name="contactID"
-            app:argType="integer" />
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/contactFragment"
@@ -30,7 +30,7 @@
             app:destination="@id/editFragment" />
         <argument
             android:name="contactID"
-            app:argType="integer" />
+            app:argType="string" />
     </fragment>
     <fragment
         android:id="@+id/contactsFragment"
